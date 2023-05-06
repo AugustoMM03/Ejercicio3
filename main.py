@@ -5,7 +5,6 @@ def test():
 
     contolador = MR()
     contolador.cargarArchivo()
-    print("SE CARGO EL ARCHIVO")
     menu = MenuOpciones()
     menu.opciones(contolador)
 
